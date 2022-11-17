@@ -12,8 +12,8 @@ public class CoinScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
+    { 
+        transform.Rotate(0, 0 , 90 * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
