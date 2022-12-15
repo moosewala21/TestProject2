@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 59761358}
   - component: {fileID: 59761357}
   - component: {fileID: 59761356}
+  - component: {fileID: 59761359}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -289,6 +290,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59761354}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &59761359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59761354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd804ceaea140e74f87a70109a0f55eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSideToSide: 1
+  moveFrontToBack: 0
+  moveUpAndDown: 0
+  moveTime: 2
+  sideToSideSpeed: 3
+  frontToBackSpeed: 0
+  upAndDownSpeed: 0
 --- !u!1001 &93177790
 PrefabInstance:
   m_ObjectHideFlags: 0
